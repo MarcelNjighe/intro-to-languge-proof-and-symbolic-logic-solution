@@ -1,0 +1,2 @@
+7.2.5.30971wnds:Windows 1010.0SntFC1591197568281D1591197823028S882117Cube(a)BackOf(b, a)d = fSameCol(a, c)SameCol(e, f)SameRow(d, e)
+Adjoins(b, c)FrontOf(a, c)Larger(d, a)Medium(a)Dodec(f)Tet(c)Between(b, a, f)Tet(b)RightOf(b, c)Smaller(c, a)SameSize(b, c)s=42406;
