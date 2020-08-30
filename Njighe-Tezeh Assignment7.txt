@@ -1,0 +1,53 @@
+5.1
+It is valid, because we know that P is not true, so the only way that P || Q is true is that Q is also true
+
+P || Q	~P	Q
+T	F	T	
+T	F	F	
+F	T	T
+F	T	F
+ 
+5.2
+It is not valid, because we got P || Q and Q true, but to transform P || Q into a true sentence we have 
+to got P or Q true. So, P can also be true. Furthemore, we know that from P infer P || Q, so it can be 
+possible that P is true and not only false
+
+P || Q	Q	~P		P
+T	T	F		T
+T	F	F		T
+T	T	T		F
+F	F	T 	        F
+
+5.3
+~(P || Q)	~P
+F		F	
+F		F
+F		T
+T		T
+
+5.5
+~(P && Q) 	~P
+F		F	
+T		F
+T		T
+T		T
+
+5.7
+We know that Max or Claire is at Home,
+we know also that Max is not happy or Carl is at home.
+Furthemore Claire is not happy or Carl is Happy.
+We can tell that Carl is Happy
+
+5.15
+We know that b is a tetraedron and c is a cube.
+We also know that either c is larger than b or else they are identical.
+Knowing that, we can immediatly say that b and c cannot be identical, because they are different objects.
+So the only way that the 2nd sentence can be true is that c is larger than b,
+so b is smaller than c.
+
+5.16
+So we accept that Max or Claire is at home, 
+we suppose that Max is at home. we know that Carl is happy.
+It is true that either Scruffy or Carl is unhappy.
+We conclude that in this case Scruffyis unhappy.
+
